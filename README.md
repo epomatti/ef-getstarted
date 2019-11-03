@@ -1,5 +1,11 @@
 # Entity Framework Core
 
+## Run it
+
+```s
+dotnet run
+```
+
 ## Database
 
 Migration that creates the database:
