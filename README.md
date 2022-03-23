@@ -1,5 +1,7 @@
 # Entity Framework Core
 
+![dotnet](https://github.com/epomatti/ef-migrations/actions/workflows/dotnet.yml/badge.svg)
+
 ### Run it
 
 ```sh
@@ -17,7 +19,7 @@ dotnet run
 
 EF migrations helper code:
 
-```s
+```bash
 dotnet tool install --global dotnet-ef
 dotnet add package Microsoft.EntityFrameworkCore.Design
 dotnet ef migrations add InitialCreate
