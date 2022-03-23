@@ -1,14 +1,21 @@
 # Entity Framework Core
 
-## Run it
+### Run it
 
-```s
+```sh
+# install dependencies
+dotnet restore
+
+# update database to the most recent migrations
+dotnet ef database update
+
+# run the app
 dotnet run
 ```
 
-## Database
+### Database
 
-Migration that creates the database:
+EF migrations helper code:
 
 ```s
 dotnet tool install --global dotnet-ef
