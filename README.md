@@ -1,4 +1,4 @@
-# Entity Framework Core
+# Entity Framework Core - Migrations
 
 ![dotnet](https://github.com/epomatti/ef-migrations/actions/workflows/dotnet.yml/badge.svg)
 
